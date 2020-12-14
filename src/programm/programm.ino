@@ -1,5 +1,13 @@
+
+
 void setup() {
   Serial.begin(115200);
-  Serial.println("test: Hallo?");
+  Serial.println();
+  Serial.println("MiniBar, 2020-12-14");
   //add a comment
+}
+
+void loop(){
+  delay(333);
+  Serial.println(millis());
 }
