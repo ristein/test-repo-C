@@ -12,7 +12,7 @@ class Getraenk
   public:
   
     char Bezeichnung[30];
-    float Preis
+    float Preis;
 };
 
 void setup() {
