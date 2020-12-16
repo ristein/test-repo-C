@@ -1,4 +1,19 @@
+//Klassendefinitionen
+class Konto
+{
+  public:
 
+    char Benutzer[30];
+    float Kontostand;
+};
+
+class Getraenk
+{
+  public:
+  
+    char Bezeichnung[30];
+    float Preis
+};
 
 void setup() {
   Serial.begin(115200);
@@ -7,7 +22,7 @@ void setup() {
   //add a comment
 }
 
-void loop(){
+void loop() {
   delay(333);
   Serial.println(millis());
 }
